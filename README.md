@@ -195,6 +195,46 @@ Código de barras
  - cd frontend
  - npm run dev
 
+## 10. Cálculo de Sostenibilidad y Huella Ambiental
+
+1. Económico: Evalúa qué tan accesible es el producto según su precio.
+ - economic_score = normalización_inversa_del_precio
+
+2. Ambiental: Basado en el eco_score proporcionado en el dataset (0 a 1).
+ - environmental_score = eco_score
+
+3. Social Basado en social_score del dataset (0 a 1).
+ - social_score = social_score
+
+4. Puntaje Global: El puntaje final del producto es una combinación ponderada: 
+            global_score = (0.4 * ambiental)
+             + (0.3 * social)
+             + (0.3 * económico)
+
+5. Huella Ambiental (Impacto)
+
+La huella ambiental representa el impacto negativo del producto.
+Se calcula como el inverso del puntaje ambienta
+El sistema asigna a cada producto un conjunto de puntajes de sostenibilidad basados en tres dimensiones:
+- impacto = 1 - environmental_score
+
+6. Optimización de Compras (Mochila Multi-Objetivo)
+ - fitness = 0.5 * global_score
+        + 0.3 * (1 / precio)
+        + 0.2 * (1 / impacto)
+ - El sistema escoge los productos con mayor fitness, sumando:
+      Costo total
+      Huella ambiental después
+      Lista de productos seleccionados
+
+7. Cálculo de Ahorro: El ahorro se calcula comparando
+
+costo total de los productos seleccionados manualmente por el usuario
+costo total de los productos optimizados
+
+ - ahorro = costo_inicial - costo_optimizado
+
+
 # ***** DOCKER-COMPOSE ******* 
 version: "3.9"
 

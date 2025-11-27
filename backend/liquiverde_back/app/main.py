@@ -18,13 +18,6 @@ app.include_router(optimize.router, prefix="/optimize", tags=["Optimizer"])
 app.include_router(substitutions.router, prefix="/substitutions", tags=["Substitutions"])
 
 @app.get("/products/{barcode}")
-# def get_product(barcode: str):
-#     product = next((p for p in products if p["barcode"] == barcode), None)
-    
-#     if product is None:
-#         return {"error": "Producto no encontrado"}
-    
-#     return product
 
 def root():
     return {"message": "LiquiVerde backend ok"}

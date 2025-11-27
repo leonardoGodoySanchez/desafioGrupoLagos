@@ -4,7 +4,6 @@ import { HomePage } from "./shop/pages/home/HomePage";
 import { ProductPage } from './shop/pages/product/ProductPage';
 import { OptimizePage } from './shop/pages/optimize/OptimizePage';
 
-
 export const appRouter = createBrowserRouter([
 
     //main routes

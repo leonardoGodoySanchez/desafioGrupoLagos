@@ -92,7 +92,7 @@ export const ProductPage = () => {
       {/* Lista de sustitutos */}
       <div className="mt-6">
 
-        {/* Antes de apretar el botón → no mostrar nada */}
+        {/* Antes de apretar el botón no mostrar nada */}
         {!subsRequested && null}
 
         {/* Apretó → está cargando */}
