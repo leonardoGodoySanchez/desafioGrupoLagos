@@ -274,7 +274,8 @@ EXPOSE 8000
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
 
 
-## imagenes evidencia palicacion
+
+ ## Evidencia ScreenShot
 <img width="1919" height="984" alt="2" src="https://github.com/user-attachments/assets/8874147d-f507-4a8c-b325-4043be8938af" />
 <img width="1231" height="885" alt="3" src="https://github.com/user-attachments/assets/9fbd617b-84b3-40c6-83d6-e287f549d4d6" />
 <img width="1306" height="902" alt="4" src="https://github.com/user-attachments/assets/1ca1b3c5-a1b0-49e6-8f82-bf65fabf252a" />
@@ -285,6 +286,4 @@ CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
 
 
 
-## Evidencia ScreenShot
 
-<img width="1881" height="1009" alt="1" src="https://github.com/user-attachments/assets/4fa0bd34-cb74-47e3-a2f2-aed73f4bfd81" />
