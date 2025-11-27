@@ -1,0 +1,25 @@
+[
+  {"barcode": "1234567890123", "name":"Leche entera 1L", "category":"Lacteos", "price":1200.0, "eco_score":0.4, "social_score":0.6},
+  {"barcode": "2345678901234", "name":"Leche vegetal 1L", "category":"Lactacteos", "price":900.0, "eco_score":0.8, "social_score":0.7},
+  {"barcode": "3456789012345", "name":"Pan integral 500g", "category":"Panaderia", "price":800.0, "eco_score":0.7, "social_score":0.6},
+  {"barcode": "4567890123456", "name":"Carne molida 500g", "category":"Carnes", "price":3500.0, "eco_score":0.2, "social_score":0.5},
+  {"barcode": "5678901234567", "name":"Lentejas 1kg", "category":"Legumbres", "price":1500.0, "eco_score":0.9, "social_score":0.8},
+
+  {"barcode": "6789012345678", "name":"Arroz grano largo 1kg", "category":"Cereales", "price":1300.0, "eco_score":0.6, "social_score":0.7},
+  {"barcode": "7890123456789", "name":"Aceite maravilla 1L", "category":"Abarrotes", "price":2500.0, "eco_score":0.3, "social_score":0.5},
+  {"barcode": "8901234567890", "name":"Huevos 12 unidades", "category":"Lacteos", "price":2600.0, "eco_score":0.4, "social_score":0.6},
+  {"barcode": "9012345678901", "name":"Manzana roja 1kg", "category":"Frutas", "price":1400.0, "eco_score":0.9, "social_score":0.9},
+  {"barcode": "1122334455667", "name":"Plátano 1kg", "category":"Frutas", "price":1200.0, "eco_score":0.8, "social_score":0.8},
+
+  {"barcode": "2233445566778", "name":"Tomate 1kg", "category":"Verduras", "price":1500.0, "eco_score":0.9, "social_score":0.7},
+  {"barcode": "3344556677889", "name":"Cebolla 1kg", "category":"Verduras", "price":1000.0, "eco_score":0.9, "social_score":0.7},
+  {"barcode": "4455667788990", "name":"Atún en agua 170g", "category":"Conservas", "price":1200.0, "eco_score":0.6, "social_score":0.6},
+  {"barcode": "5566778899001", "name":"Garbanzos 1kg", "category":"Legumbres", "price":1600.0, "eco_score":0.9, "social_score":0.8},
+  {"barcode": "6677889900112", "name":"Fideos espagueti 400g", "category":"Cereales", "price":900.0, "eco_score":0.7, "social_score":0.6},
+
+  {"barcode": "7788990011223", "name":"Detergente líquido 3L", "category":"Limpieza", "price":3500.0, "eco_score":0.4, "social_score":0.5},
+  {"barcode": "8899001122334", "name":"Papel higiénico 18 unidades", "category":"Higiene", "price":4200.0, "eco_score":0.3, "social_score":0.6},
+  {"barcode": "9900112233445", "name":"Yogurt natural 1kg", "category":"Lacteos", "price":2300.0, "eco_score":0.5, "social_score":0.7},
+  {"barcode": "1011121314151", "name":"Jabón líquido 1L", "category":"Higiene", "price":1700.0, "eco_score":0.6, "social_score":0.7},
+  {"barcode": "1213141516171", "name":"Pollo entero 1.8kg", "category":"Carnes", "price":5400.0, "eco_score":0.3, "social_score":0.5}
+]

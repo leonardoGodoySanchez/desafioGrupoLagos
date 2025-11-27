@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  liquiverde_api:
+    build: .
+    container_name: liquiverde_back
+    restart: always
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
